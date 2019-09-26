@@ -1,0 +1,7 @@
+Curl  'https://oapi.dingtalk.com/robot/send?access_token=42dfc0bc5390ecb53490303c02de49f369936f17622be621643b3b327d7d757e' 
+    - H  'Content-Type: application/json' 
+    - d  '{"msgtype": "text", 
+        "text" : {
+              "content" : "I am me, it is not the same fireworks"
+        }
+      }'
